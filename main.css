@@ -1,0 +1,294 @@
+header {
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/123.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-top: 8px;
+    text-align: center;
+    grid-area: header; }
+
+  
+  
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px; }
+
+
+h1  {
+      color: black;
+      font-family: 'Oswald', sans-serif;
+      padding-top: 10px;
+      font-size: 28px;
+  }
+
+h2  {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+
+h2, h3, h4  {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+.metodo-pago  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+
+
+.footer-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
+}
+
+
+.grids {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header"
+ "nav"
+ "main"
+ "footer";
+}
+
+
+
+footer {
+  background-color: rgb(224, 222, 222);
+  background-image: url(../img/123.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 18px;
+  overflow: hidden;
+  margin: 0px;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 120px;
+  grid-area: footer;
+}
+
+ul {
+  list-style: none;
+}
+
+.asd {
+  color: white !important;
+}
+
+a  {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+body  {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: rgba(5, 7, 12, 0.70), url(../desafio-06-juan-ignacio-ferrandi/img/papel_01.png) no-repeat center center fixed;
+    font-family: "sounce sans pro";
+    color: rgb(0, 0, 0);
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    max-width: 300px;
+}
+
+nav {
+  grid-area: nav; }
+
+main {
+  grid-area: main; }
+
+
+.li-info  {
+  padding: 2px 10px;
+}
+
+.art-03 {
+  padding-top: 15px; }
+  
+  
+p {
+  font-size: 16px;
+  margin: 12px 20px;
+  text-align: center; }
+
+
+.paginas {
+  margin-top: 530px;}
+
+
+.paginas-2 {
+  margin-top: 370px;}
+
+
+
+  @media screen and (min-width: 768px) {
+    .contenedor {
+      flex-direction: row; }
+    hr {
+      border: solid 1px;
+      width: 1px; }
+    li {
+      margin: 5px 35px; }
+    .noticia {
+      display: flex;
+      flex-direction: row;
+      padding: 0px 40px; }
+    iframe {
+      max-width: 768px; }
+    h1 {
+      font-size: 35px; }
+    h2 {
+      font-size: 30px; }
+    img {
+      max-width: 350px; }
+    td, th {
+      font-size: 14px; }
+    .reporte {
+      min-width: 300px; } }
+
+    img {
+      max-width: 400px;
+      max-height: 600px; }
+  
+  @media screen and (min-width: 768px) and (min-width: 1024px) {
+    .li-header {
+      margin: 5px 65px;
+      font-size: 18px; } }
+
+  
+  
+  @media screen and (min-width: 768px) {
+    .grid {
+      display: flex;
+      flex-direction: row;
+      padding: 40px; }
+    .reporte {
+      min-width: 500px; }
+    .img-fluid {
+      min-width: 400px; } }
+    
+    footer  {
+        margin-top: 150px;
+      }
+  
+  @media screen and (min-width: 1440px) {
+
+    footer  {
+      margin-top: 330px;
+    }
+
+    .li-header {
+      margin: 5px 105px;
+      font-size: 20px; }
+    img {
+      max-width: 500px;
+    max-height: 700px; }
+    .art-2 {
+      padding-right: 70px;
+      font-size: 15px; }
+    footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      text-align: center; }
+
+    .li-footer {
+      margin: 5px 15px;
+      padding-top: 25px; }
+    h2 {
+      font-size: 28px; }
+
+    h3 {
+      font-size: 26px; }
+
+    p  {
+      font-size: 22px;
+    }
+    
+    .li-header:hover {
+      font-size: 24px;
+      transition-duration: 0.4s;
+      opacity: 100%; }
+    .contacto {
+      margin-right: 330px;
+      font-size: 18px; }
+    .art-1 {
+      font-style: italic; }
+    }
+
+    .paginas {
+      margin-top: 700px;}
+
+  
+  @media screen and (min-width: 1880px) {
+   
+    footer  {
+      margin-top: 510px;
+    }
+
+    img {
+      max-width: 500px;
+    max-height: 680px;
+    padding-left: 50px; }
+    
+    .li-header {
+      margin: 10px 150px;
+      font-size: 22px; }
+    .contacto {
+      margin-right: 550px;
+      font-size: 18px; }
+    .art-2 {
+      padding-right: 100px;
+      text-align: start; }
+    h2 {
+      font-size: 35px; }
+    p  {
+      font-size: 25px;
+      }
+    .img-fluid {
+      min-width: 480px; }
+    h3 {
+      font-size: 30px;
+      padding: 5px; }
+    h4 {
+      font-size: 20px; }
+      
+    .li-header:hover {
+      font-size: 26px;
+      transition-duration: 0.4s;
+      opacity: 100%; }
+
+  }
